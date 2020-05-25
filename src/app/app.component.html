@@ -1,0 +1,7 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+    <app-header logoutText="{{logoutText}}" (views)="viewsCout($event)"></app-header>
+    <router-outlet></router-outlet>
+    <button class="btn btn-primary" title="event emmitter usage">WebSite Name Views: {{noOfViews}}</button>
+    <app-footer></app-footer>
+</div>

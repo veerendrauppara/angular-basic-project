@@ -1,0 +1,6 @@
+.btn-primary {
+    position: fixed;
+    bottom: 45%;
+    left: -82px;
+    transform: rotate(270deg);
+}
